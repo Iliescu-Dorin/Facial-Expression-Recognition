@@ -10,7 +10,7 @@ session = tf.compat.v1.Session(config=config)
 set_session(session)
 
 
-class FacialExpressionModel(object):
+class FacialExpressionModel():
 
     EMOTIONS_LIST = ["Angry", "Disgust",
                      "Fear", "Happy",
